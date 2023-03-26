@@ -7,8 +7,8 @@
 	$db_conn = mysqli_connect($db_host, $db_user, $db_pass, $db_name);
 	
 	// get the game title from the URL parameter
-	$game_title = "Psychonauts 2";
-	$URL="psy2.php";
+	$game_title = "Obduction";
+	$URL="obduction.php";
 	
 	// get the recommendation from the database
 	$query = "SELECT * FROM Recommendations WHERE Game_Title='$game_title'";
