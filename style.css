@@ -1,0 +1,131 @@
+/* Set the page background color */
+body {
+	background-color: #D7DDDB;
+}
+
+/* Set the font color for the entire page */
+body,
+h2,
+p,
+a {
+	color: #FFFFFF;
+}
+
+h1 {
+	color: #000000;
+	font-size: 48px;
+	text-align: left;
+	margin-left: 10%;
+	margin-top: 30px;
+	text-shadow: 2px 2px #B76E00;
+}
+
+main {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.game-div {
+	flex: 1 1 300
+}
+
+/* container styles */
+.container {
+	display: flex;
+	justify-content: space-between;
+}
+
+/* Style for the recommendations container */
+.recommendations-container {
+	display: flex;
+	flex-direction: column;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 50px;
+}
+
+/* Style for each individual recommendation */
+.recommendation {
+	display: flex;
+	flex-direction: row;
+	flex-basis: 70%;
+	margin-bottom: 30px;
+	border-radius: 5px;
+	background-color: #313131;
+	width: 90%;
+}
+
+/* Style for the recommendation thumbnail */
+.thumbnail {
+	width: 300px;
+	height: 300px;
+	object-fit: cover;
+	margin-right: 30px;
+	border-radius: 5px 0 0 5px;
+}
+
+/* Style for the recommendation content */
+.recommendation-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 20px;
+}
+
+/* Style for the game title */
+.game-title {
+	font-size: 36px;
+	margin-bottom: 20px;
+	text-align: left;
+}
+
+/* Style for the game description */
+.game-description {
+	font-size: 16px;
+	text-align: left;
+	margin-bottom: 20px;
+}
+
+/* Style for the read more button */
+.read-more-button {
+	display: inline-block;
+	padding: 10px 20px;
+	border-radius: 5px;
+	background-color: #50A55D;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+	max-width: 20%;
+}
+
+/* aside styles */
+aside {
+	background-color: #313131;
+	padding: 20px;
+	flex-basis: 10%;
+}
+
+.history {
+	color: #FFFFFF;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-size: 24px;
+}
+
+.history li {
+	margin-bottom: 10px;
+}
+
+.history a {
+	display: block;
+	padding: 10px;
+	background-color: #50A55D;
+	border-radius: 5px;
+}
+
+
+
+
